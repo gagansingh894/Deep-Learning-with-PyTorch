@@ -1,7 +1,6 @@
 import torch
 from torch import optim, nn
 from torchvision import datasets, transforms
-import torch.nn.functional as F
 
 
 transform = transforms.Compose([transforms.ToTensor()])
